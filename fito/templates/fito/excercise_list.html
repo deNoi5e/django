@@ -1,10 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Главная страница</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static "fito/css/bootstrap.min.css" %}">
+	<link rel="stylesheet" href="{% static "fito/css/style.css" %}">
 </head>
 <body>
-	
+	<div class="jumbotron">
+		<div class="container">
+			<div class="col-lg-12">
+				<h2>Lorem ipsum.</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cupiditate similique at voluptatem est, quae aperiam quod, sapiente, ipsam, eligendi eos nobis sit harum corporis minus vitae aut sint earum.</p>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
