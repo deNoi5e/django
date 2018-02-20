@@ -8,8 +8,4 @@ class Exercise(models.Model):
 	text = models.TextField()
 	# anim = models.ImageField
 #Прогрес
-class Progress(models.Model):
-
-
-	
-
+#class Progress(models.Model):
