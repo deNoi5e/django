@@ -1,17 +1,5 @@
 {% extends "fito/wrapper.html" %}
 {% block content %}
-<div class="jumbotron">
-		<div class="container main-content">
-			<div class="col-lg-12">
-				<h1>Lorem</h1>
-				    {% for excercise in excercise %}
-					    <div class="post">
-					        <div class="date">
-					        </div>
-					        <h1><a href="{% url 'excercise_list' %}">{{ excercise.title }}</a></h1>
-					        <p>{{ post.text|linebreaksbr }}</p></div>
-					    {% endfor %}
-			</div>
-		</div>
-</div>
+
+
 {% endblock %}
