@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" href="{% static "fito/css/bootstrap.min.css" %}">
+	<link rel="stylesheet" href="{% static "fito/css/style.css" %}">
+	{# <link rel="stylesheet" href="{% static 'contrib/font-awesome.min.css' %}"> #}
+    <script src="{% static "fito/js/bootstrap.min.js" %}"></script>
+</head>
+<body>
+	{% block content %}
+	{% endblock %}
+</body>
+</html>
