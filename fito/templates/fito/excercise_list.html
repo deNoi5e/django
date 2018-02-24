@@ -1,7 +1,7 @@
 {% extends "fito/wrapper.html" %}
 
 {% block content %}
-	{% for exc in excercise %}
-		<p>{{exc}}</p>
+	 {% for exc in excercise %} 
+		<p>{{exc.group}}</p>
 	{% endfor %}
 {% endblock %}
